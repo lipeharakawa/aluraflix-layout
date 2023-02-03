@@ -1,7 +1,5 @@
 var listaFilmes = ["https://br.web.img2.acsta.net/medias/nmedia/18/89/56/94/20055685.jpg",
-                    "https://musicart.xboxlive.com/7/d7fc4500-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
                     "https://br.web.img2.acsta.net/pictures/22/09/23/20/14/0505071.jpg",
-                    "https://lumiere-a.akamaihd.net/v1/images/unnamed_13_75a3ebb1.jpeg?region=0%2C0%2C356%2C512",
                     "https://br.web.img2.acsta.net/pictures/19/07/10/20/01/2331295.jpg",
                     "https://www.clickriomafra.com.br/emacite/wp-content/uploads/2022/04/Animais-Fant%C3%A1sticos-3-ser%C3%A1-exibido-no-Cineplus-Emacite-confira-a-programa%C3%A7%C3%A3o-1.jpg",
                     "https://br.web.img2.acsta.net/pictures/18/11/08/14/45/3423559.jpg",
@@ -12,14 +10,25 @@ var listaFilmes = ["https://br.web.img2.acsta.net/medias/nmedia/18/89/56/94/2005
                     "https://extra.globo.com/incoming/17656610-8fa-6f8/w533h800/cartaz.jpg",
                     "http://www.cinesystem.com.br/filmes/images/poster/avatar-o-caminho-da-agua.jpg",
                     "https://upload.wikimedia.org/wikipedia/pt/e/e6/Xmen_apocalypse_ver18.jpg"
-                ]
+                ];
 
-//listaFilmes[0] = "https://br.web.img2.acsta.net/medias/nmedia/18/89/56/94/20055685.jpg";
-//listaFilmes[1] = "https://musicart.xboxlive.com/7/d7fc4500-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080";
-//listaFilmes[2] = "https://br.web.img2.acsta.net/pictures/22/09/23/20/14/0505071.jpg";
+listaFilmes.push('https://lumiere-a.akamaihd.net/v1/images/p_insideout_19751_af12286c.jpeg', 'https://cdn.shopify.com/s/files/1/1057/4964/products/harry-potter-and-the-chamber-of-secrets-vintage-movie-poster-original-1-sheet-27x41.jpg');
 
-for (var i=0; i<listaFilmes.length; i++) {
-    
-    document.write("<img src=" + listaFilmes[i] + ">");
-    
+var nomeFilmes = ['Titanic', 'Wandinha', 'Stranger Things', 'Animais Fantásticos', 'Animais Fantásticos', 'Pokémon: The First Movie', 'Pokémon 2000', 'Maze Runner: Correr ou Morrer', 
+                  'Divergente', 'Jogos Vorazes: A Esperança', 'Avatar: O Caminho da Água', 'X-Men: Apocalipse', 'Divertidamente', 'Harry Potter e a Câmara Secreta'];
+                
+document.write('<div class="container_todosFilmes">')
+
+var i = 0;
+while(i < listaFilmes.length){
+    if((listaFilmes[i].endsWith('jpg')) || (listaFilmes[i].endsWith('jpeg')) || (listaFilmes[i].endsWith('png'))){
+        document.write('<div class="container_filme">')
+        document.write('<img src='+ listaFilmes[i] +'>');
+        document.write('<p>'+ nomeFilmes[i] +'</p>');
+        document.write('</div>')
+    }else{
+        document.write('<p> A imagem ' + i + ' não foi lida pois não é um arquivo do tipo jpeg ou jpg </p>');
+    }
+    i++;
 }
+document.write('</div>')
