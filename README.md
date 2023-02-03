@@ -34,7 +34,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Aluraflix - Layout permite o cadastramento de dados (URL da imagem) por meio de uma array através do código (certifique-se que o formato da imagem cadastrada seja PNG, JPG ou relacionadas) e é exibido o resultado na tela do navegador.
 
-- [ Visite o projeto online ]()
+- [ Visite o projeto online ](https://lipeharakawa.github.io/aluraflix_layout-html-css-js)
 
 ## 🔖 Layout
 
