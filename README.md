@@ -1,4 +1,4 @@
-<h1 align="center"> Aluraflix - Layout </h1>
+<h1 align="center">Aluraflix - Layout</h1>
 
 <p align="center">
 Imersão Dev é um evento exclusivo e gratuito, promovido pela Alura para ensino de tecnologias WEB. <br/>
@@ -34,7 +34,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Aluraflix - Layout permite o cadastramento de dados (URL da imagem) por meio de uma array através do código (certifique-se que o formato da imagem cadastrada seja PNG, JPG ou JPEG) e é exibido o resultado na tela do navegador.
 
-- [ Visite o projeto online ](https://lipeharakawa.github.io/aluraflix_layout-html-css-js)
+- [ Visite o projeto online ](https://lipeharakawa.github.io/aluraflix-layout)
 
 ## 🔖 Layout
 
@@ -46,4 +46,4 @@ Esse projeto está sob a licença MIT.
 
 ---
 
-Feito com 🧡 por Felipe Seidi Harakawa, durante o evento Imersão Dev da Alura. [ Visite o site! ](https://www.alura.com.br)
+Feito com ❤️ por Felipe Seidi Harakawa, durante o evento Imersão Dev da Alura. [ Visite o site! ](https://www.alura.com.br)
